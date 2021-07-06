@@ -143,7 +143,7 @@ def draw_pipes(pipe_list):
 #BIRD
 class Bird():
 	def __init__(self):
-		self.x = 10
+		self.x = WIDTH//2-BIRD_WIDTH
 		self.y = 400
 		self.sprite = BIRD_SPRITE
 		self.current_sprite = 0
